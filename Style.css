@@ -1,0 +1,133 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* الهيدر */
+.header {
+    background-color: #3273dc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+h1::first-letter {
+    color: red; /* تحديد لون أول حرف */
+    font-size: 2em; /* تكبيره لو أردت */
+    font-weight: bold;
+}
+
+
+h2::first-letter {
+    color: red; /* تحديد لون أول حرف */
+    font-size: 2em; /* تكبيره لو أردت */
+    font-weight: bold;
+}
+
+
+/* الحاوية الرئيسية */
+.container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* كارت البروفايل */
+.profile-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    flex: 1;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-card button {
+    background: #3273dc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.profile-card .social-links {
+    margin-top: 10px;
+}
+
+.profile-card .social-links a {
+    display: block;
+    color: #3273dc;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+/* كارت المعلومات */
+.info-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 65%;
+    min-width: 300px;
+    flex: 2;
+}
+
+.info-card h2 {
+    color: #3273dc;
+}
+
+.skills, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills span, .projects div {
+    background: #3273dc;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(33% - 20px);
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card, .info-card {
+        width: 100%;
+    }
+}
+
