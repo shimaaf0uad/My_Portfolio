@@ -12,7 +12,7 @@ Hello! I’m Shimaa Fouad, a passionate web developer specializing in creating i
 
 I’m a dedicated web developer with a strong foundation in front-end and back-end development. My goal is to craft seamless digital experiences by leveraging the latest technologies and best practices in web development.
 
-- **Location**: Mansoura, Dakahlia Governorate, Egypt  
+- **Location**: Sharqia Governorate, Zagazig City , Egypt  
 - **Email**: shimaa.fouad002@gmail.com  
 - **Connect with Me**:  
   - [GitHub](https://github.com/shimaaf0uad)  
