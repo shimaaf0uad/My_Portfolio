@@ -128,5 +128,7 @@ Want to contribute to my projects? Here’s how:
 This portfolio and its projects are licensed under the [MIT License](LICENSE) unless specified otherwise.
 
 ---
-
+## ⚠️ Security Notice
+This portfolio and its contents are protected by copyright law. Unauthorized use, reproduction, distribution, or modification of any code or content is strictly prohibited without prior written permission from the author (shimaa.fouad002@gmail.com). For collaboration or usage requests, please contact me directly.
+---
 *Thank you for visiting my portfolio! Let’s build something amazing together! 🚀*
